@@ -14,7 +14,7 @@ The timestamp will have two parts. One of it called ***timestamp_high***, anothe
 
 True timestamp can be computed by formula:   
 $$
-\mathbf{timestamp} = \mathbf{2}^{32} \times \mathbf{timestamp\_high} + \mathbf{timestamp\_low}
+timestamp = 2^{32} * timestamp\_high + timestamp\_low
 $$
 
 Other operations can refer to [Linux 802.11n CSI Tool](http://dhalperi.github.io/linux-80211n-csitool/index.html)
