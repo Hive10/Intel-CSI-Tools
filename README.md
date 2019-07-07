@@ -12,6 +12,6 @@ Then, run read_syn_bf_file.m to spare the ***csi.dat*** file.
 
 The timestamp will have two parts. One of it called ***timestamp_high***, another called ***timestamp_low***.
 
-True timestamp can be computed by formula:$$timestamp = 2^{32} * timestamp_high + timestamp_low$$.
+True timestamp can be computed by formula:$timestamp = 2^{32} * timestamp_high + timestamp_low$.
 
 Other operations can refer to [Linux 802.11n CSI Tool](http://dhalperi.github.io/linux-80211n-csitool/index.html)
